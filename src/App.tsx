@@ -27,7 +27,7 @@ function App() {
             </a>
 
             <a
-              href="https://github.com/YOUR_GITHUB"
+              href="https://github.com/Devansh-Yadav22"
               target="_blank"
               className="px-6 py-3 rounded-xl border border-slate-700 hover:bg-slate-800 transition"
             >
@@ -35,7 +35,7 @@ function App() {
             </a>
 
             <a
-              href="https://linkedin.com/in/YOUR_LINKEDIN"
+              href="https://linkedin.com/in/devansh-yadav-3b59b4359"
               target="_blank"
               className="px-6 py-3 rounded-xl border border-slate-700 hover:bg-slate-800 transition"
             >
@@ -72,7 +72,7 @@ function App() {
 
             <div className="flex gap-4">
               <a
-                href="https://YOUR_ASSIGNMATE_LIVE_URL"
+                href="https://assignmate-frontend.vercel.app/"
                 target="_blank"
                 className="px-5 py-2.5 rounded-lg bg-blue-600 hover:bg-blue-700 transition"
               >
@@ -80,7 +80,7 @@ function App() {
               </a>
 
               <a
-                href="https://github.com/YOUR_USERNAME/assignmate-frontend"
+                href="https://github.com/Devansh-Yadav22/assignmate-frontend"
                 target="_blank"
                 className="px-5 py-2.5 rounded-lg border border-slate-700 hover:bg-slate-800 transition"
               >
