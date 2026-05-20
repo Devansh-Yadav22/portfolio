@@ -1,35 +1,51 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+:root {
+  color-scheme: dark;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+body {
+  min-height: 100vh;
+  background: #020617;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.app-shell {
+  background: radial-gradient(circle at top left, rgba(59, 130, 246, 0.20), transparent 28%),
+    radial-gradient(circle at 80% 20%, rgba(168, 85, 247, 0.16), transparent 22%),
+    radial-gradient(circle at 30% 85%, rgba(14, 165, 233, 0.14), transparent 18%),
+    linear-gradient(180deg, rgba(10, 14, 26, 0.98), rgba(8, 12, 20, 0.98));
+}
+
+.glass-card {
+  background: rgba(15, 23, 42, 0.68);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+}
+
+.glow-ring {
+  position: absolute;
+  pointer-events: none;
+  filter: blur(48px);
+  opacity: 0.55;
+}
+
+.glow-ring.blue {
+  background: radial-gradient(circle, rgba(56, 189, 248, 0.32), transparent 55%);
+}
+
+.glow-ring.purple {
+  background: radial-gradient(circle, rgba(168, 85, 247, 0.36), transparent 52%);
+}
+
+.animated-blob {
+  animation: float-blob 9s ease-in-out infinite;
+}
+
+@keyframes float-blob {
+  0%, 100% {
+    transform: translateY(0px) scale(1);
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+  50% {
+    transform: translateY(-18px) scale(1.05);
   }
 }
 
