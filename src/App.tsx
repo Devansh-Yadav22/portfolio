@@ -32,7 +32,7 @@ function App() {
             </a>
 
             <a
-              href="https://github.com/YOUR_GITHUB"
+              href="https://github.com/Devansh-Yadav22"
               target="_blank"
               className="rounded-3xl border border-white/10 bg-white/5 px-7 py-3 text-sm font-semibold text-slate-100 transition duration-500 hover:border-cyan-400/40 hover:bg-white/10 hover:text-white"
             >
@@ -40,7 +40,7 @@ function App() {
             </a>
 
             <a
-              href="https://linkedin.com/in/YOUR_LINKEDIN"
+              href="https://linkedin.com/in/devansh-yadav-3b59b4359"
               target="_blank"
               className="rounded-3xl border border-white/10 bg-white/5 px-7 py-3 text-sm font-semibold text-slate-100 transition duration-500 hover:border-violet-400/40 hover:bg-white/10 hover:text-white"
             >
